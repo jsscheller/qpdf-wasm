@@ -1,0 +1,19 @@
+{
+  "name": "@jspawn/qpdf-wasm",
+  "version": "0.0.1",
+  "description": "qpdf compiled to WASM",
+  "main": "qpdf.js",
+  "module": "qpdf.mjs",
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha.js tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jsscheller/qpdf-wasm.git"
+  },
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "mocha": "^10.0.0"
+  },
+  "dependencies": {}
+}
