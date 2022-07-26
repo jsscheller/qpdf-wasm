@@ -40,8 +40,7 @@ cd "$ROOT/lib/qpdf"
 fn_git_clean
 emcmake cmake -S . -B build \
   -DCMAKE_INSTALL_PREFIX="$OUT_DIR" \
-  -DUSE_INSECURE_RANDOM=1 \
-  -DSKIP_OS_SECURE_RANDOM=1
+  -DRANDOM_DEVICE="/dev/random"
 # `-j` needs to be adjusted manually
 # setting to `nproc` crashes my system
 cmake --build build # -j5
