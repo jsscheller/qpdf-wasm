@@ -1,6 +1,6 @@
 {
   "name": "@jspawn/qpdf-wasm",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "qpdf compiled to WASM",
   "main": "qpdf.js",
   "module": "qpdf.mjs",
