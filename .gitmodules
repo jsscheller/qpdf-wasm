@@ -1,9 +1,0 @@
-[submodule "lib/zlib"]
-	path = lib/zlib
-	url = https://github.com/madler/zlib.git
-[submodule "lib/jpeg-turbo"]
-	path = lib/jpeg-turbo
-	url = https://github.com/ImageMagick/jpeg-turbo.git
-[submodule "lib/qpdf"]
-	path = lib/qpdf
-	url = https://github.com/qpdf/qpdf.git
