@@ -6,7 +6,7 @@ Object.assign(FS, {
   ["writeFile"]: FS.writeFile,
   ["readFile"]: FS.readFile,
   ["createLazyFile"]: FS.createLazyFile,
-  ["setIgnorePermissions"]: function(val) {
+  ["setIgnorePermissions"]: function (val) {
     FS.ignorePermissions = val;
   },
 });
